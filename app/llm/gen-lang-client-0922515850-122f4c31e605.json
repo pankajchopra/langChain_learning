@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gen-lang-client-0922515850",
+  "private_key_id": "122f4c31e605c565512bc70223f9a7dca9ac6d90",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDfCwJt8RVqXyyR\n0FF6cbJ8IL41qcYYfSbgKbbza1GfaYhlOJANlm2nBVrgbfpxdq3zrIU3v34iP9zv\nmGS6o223tXlCc+aZrGAL2PpQcmld2yo67PpxVruETkNIZuk+cAwT+4AogSSrUaO3\noi7C+kelSukTwufGdxmTUbXzNLzxGUbSyTcLkAi8X0OBa5DKc2z/RFZv7uY6FD00\nzvi5wePlISJj+6flv1RJmZCMquUoeEoyCyumh+2IoqwPDxtI3IrMr0o3GZObxUcf\nyVbZbyS/kwC0N9xg7Jp0zeC1x074N5Dj+YdwLdvAlh8Qyr62ShU+mmO8VG+EPPqg\nPb+6tHHVAgMBAAECggEAJuspX9y202pLASB77yUis0UVW5DFt6Uy4N92hG///JRy\nD9N4U16hwIiPLGUUU7MVNFUwo6Me08QX/Zi2TtjQfsNEJuPJY5wv4DFasCnel9lz\nu3d5VciADNyJIfuPDG2JtfznBmpOZzRmIFdE2JHKaZ2yINgcEEXc6RdTa94Sb/EZ\nNaPMwpvLTJptRIpq3wADfLGKmYu3Xuq7SJOLAy8puXPUOy1O9jgS1wMKyOWQQfAv\noQeWIrBwIro9rLb1sXglYDOn/GDUdD2YQbL7jlWKVXNp+/fzV873T7rX7Q1hvjXX\n7EGcOtbXlSc1kDVXo+JgR+qCITWpLAHThZN3yO/QcQKBgQD4e7jUU8gNXjyco8MW\nmOBm257sc197HCpTRK9NWHkjU5zxhbMQzbL71yiLMyXP2O+EllXv7/a5ezwEk/hl\nvWxX1KpU7/H+nUqD6bOx/3oAfbJx6DD2jGcyX9nm63dCNy6Pyb/Q4eWs/Bm8t3tP\n94OM+PnPB4kgfdSr/Waf92Mt+QKBgQDlykaKZl8o1jvFtDG93qKa7+vyc8iEUiws\nVEjTLZFPBZmZckSlp9ub4l11r6ewb/k0y/q9SnNGzvfPXPy1miwRyMtjIJv75yP+\nKMr34wK/spwURHqERoc9VKC0uCOjxVTYtxBjWLiH3ZjPYkF6YY7dYO6nDAntGmBN\nqhreVzvJvQKBgQCXzc4fOYgQUrAo6gs3dPIzJJ00y09bwNtCv8VxNUncgSpyi0HY\nVDKylMHaOMcy8c9yav3Zdfp/WoBSM6wfS9gy2GOvPF/VM3bgnBgB+JgqUKCB4l53\nYVNyfQh8gQH83AWAJrse+8L7KZD3sAiP1CD0MO88wdfOl9Ejuc3GkLZw0QKBgDGb\nTUcreneSaCzyDZrzqR7RlJourKcEJk0blO0h9TCeAN7DcFZiumIYqBxz4zuPsLjZ\nIDQlEmXC4HR/mn6J3eGo+19W9tWWvIptvANvmnRP1qn5bomHwEJZNqhM6ES+oOZ3\n/q2zxYJvMEH08DW/QdxAxMSDMNFi1E9v3YUKR/nxAoGBAJd357Zy1EKwFb+9ddmt\nxD/KTEncskjsPFqokPjpog6LjksNogaWtu/AYwx7pJFIH0sTRC8mj/lwraJg2Uvy\n6+XqIC0vNRlYd5d3z1h+22orIJ0OE4Wz3+eMLpDfBZhLiWLsbDml7TGxhGAWFL4f\nVqu74IIniUJhjIYY7jX42iHo\n-----END PRIVATE KEY-----\n",
+  "client_email": "captureanything-gemini-service@gen-lang-client-0922515850.iam.gserviceaccount.com",
+  "client_id": "116047022863194353193",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/captureanything-gemini-service%40gen-lang-client-0922515850.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
