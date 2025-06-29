@@ -1,27 +1,24 @@
-...
-messages = [AIMessage(content=f"So you said you were researching ocean mammals?", name="Model")]
 
-messages.append(HumanMessage(content=f"Yes, that's right.",name="Lance"))
+* messages = [AIMessage(content=f"So you said you were researching ocean mammals?", name="Model")]
+* messages.append(HumanMessage(content=f"Yes, that's right.",name="Lance"))
+* messages.append(AIMessage(content=f"Great, what would you like to learn about.", name="Model"))
+* messages.append(HumanMessage(content=f"I want to learn about the best place to see Orcas in the US.", name="Lance"))
 
-messages.append(AIMessage(content=f"Great, what would you like to learn about.", name="Model"))
 
-messages.append(HumanMessage(content=f"I want to learn about the best place to see Orcas in the US.", name="Lance"))
-'''
-'''code
 for m in messages:
     m.pretty_print()
----------------------
+#---------------------
 def _set_env(var: str):
     if not os.environ.get(var):
         os.environ[var] = getpass.getpass(f"{var}: ")
 
 _set_env("OPENAI_API_KEY")
 
-We can load a chat model and invoke it with out list of messages.
-We can see that the result is an `AIMessage` with specific `response_metadata`.
+* We can load a chat model and invoke it with out list of messages.
+* We can see that the result is an `AIMessage` with specific `response_metadata`.
 //code
 from langchain_openai import ChatOpenAI
------
+--
 llm_with_tools = llm.bind_tools([multiply])
 If we pass an input - e.g., `"What is 2 multiplied by 3"` - we see a tool call returned. 
 
@@ -31,14 +28,13 @@ The tool call has specific arguments that match the input schema of our function
 ```
 tool_call = llm_with_tools.invoke([HumanMessage(content=f"What is 2 multiplied by 3", name="Lance")])
 tool_call.tool_calls
+
 list of tool calls invoked by llm
+
 [{'name': 'multiply',
   'args': {'a': 2, 'b': 3},
   'id': 'call_lBBBNo5oYpHGRqwxNaNRbsiT',
   'type': 'tool_call'}]
-
-
-
 
 llm = ChatOpenAI(model="gpt-4o")
 result = llm.invoke(messages)
